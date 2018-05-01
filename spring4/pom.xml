@@ -14,6 +14,12 @@
             <artifactId>spring-context</artifactId>
             <version>4.1.6.RELEASE</version>
         </dependency>
+        <!-- 添加JSR250的支持 -->
+        <dependency>
+            <groupId>javax.annotation</groupId>
+            <artifactId>jsr250-api</artifactId>
+            <version>1.0</version>
+        </dependency>
         <!-- 文件读取相关操作 -->
         <dependency>
             <groupId>commons-io</groupId>

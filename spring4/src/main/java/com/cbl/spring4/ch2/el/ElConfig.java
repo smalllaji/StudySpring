@@ -22,7 +22,7 @@ public class ElConfig {
     @Value("#{systemProperties['os.name']}")
     private String osName;
 
-    @Value("#{T(java.lang.Math).random()*100.0}")
+    @Value("#{ T(java.lang.Math).random()*100.0}")
     private double randomNumber;
 
     @Value("#{demoService.another}")
